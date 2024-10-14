@@ -78,6 +78,8 @@ Start by creating a virtual environment to isolate your Python dependencies.
 4. You will see the DAG tasks executed in sequence.
 
 > **DAG Overview Screenshot Placeholder:** Insert a screenshot of the DAG overview from the Airflow UI here.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 ## **6. View Logs for Each Task**
 
@@ -86,17 +88,23 @@ Start by creating a virtual environment to isolate your Python dependencies.
    - Here you can inspect any errors or successes, such as missing dependencies.
 
 > **Download Launches Task Log Screenshot Placeholder:** Insert a screenshot of the `download_launches` task log here.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 2. **Get Pictures Task**:
    - Click on the `get_pictures` task to check the logs for the images being downloaded.
    - You can view which images were downloaded or errors, such as connection failures.
 
 > **Get Pictures Task Log Screenshot Placeholder:** Insert a screenshot of the `get_pictures` task log here.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 3. **Notify Task**:
    - Click on the `notify` task to see the notification log with the count of downloaded images.
 
 > **Notify Task Log Screenshot Placeholder:** Insert a screenshot of the `notify` task log here.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 ### **7. View the DAG Graph**
 
@@ -104,6 +112,8 @@ Start by creating a virtual environment to isolate your Python dependencies.
 2. This will display the task execution graph showing the dependencies and the status of each task.
 
 > **DAG Graph View Screenshot Placeholder:** Insert a screenshot of the DAG graph view from the Airflow UI here.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 ### **8. View the Downloaded Images**
 
@@ -115,6 +125,8 @@ Start by creating a virtual environment to isolate your Python dependencies.
 2. To verify the images, you can open them using an image viewer or move them to another directory.
 
 > **Images Directory Screenshot Placeholder:** Insert a screenshot of the images directory listing here.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 ### **9. Deactivate the Virtual Environment**
 
@@ -123,12 +135,3 @@ When done, you can deactivate the virtual environment by running:
 ```bash
 deactivate
 ```
-
-### **10. Additional Commands**
-
-- **To stop the Airflow web server**, use `Ctrl+C` in the terminal window where it is running.
-- **To stop the scheduler**, use `Ctrl+C` in the terminal where the scheduler is running.
-
----
-
-This version includes placeholders for screenshots of each task’s log, the DAG overview, and the DAG graph view in the Airflow UI.
