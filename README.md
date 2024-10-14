@@ -67,7 +67,7 @@ Start by creating a virtual environment to isolate your Python dependencies.
    mkdir -p ~/airflow/dags
    ```
 
-2. **Create the DAG file** in the `~/airflow/dags/` directory. Create the rocket_launches_dag.py file:
+2. **Create the DAG file**: in the `~/airflow/dags/` directory. Create the rocket_launches_dag.py file
 
 
 ## **5. Trigger the DAG in Airflow**
