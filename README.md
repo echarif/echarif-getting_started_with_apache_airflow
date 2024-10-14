@@ -78,7 +78,7 @@ Start by creating a virtual environment to isolate your Python dependencies.
 4. You will see the DAG tasks executed in sequence.
 
 > **DAG Overview:**
-![dag overview](images/DAG Overview.png)
+![dag overview](images/DAG_overview.png)
 
 
 ## **6. View Logs for Each Task**
